@@ -24,7 +24,7 @@
         rgba(0, 0, 0, 0.7) 30%,
         rgba(51, 51, 51, 0.5) 100%
       ),
-      url(/img/photo-1.jpg);
+      url(../img/photo-1.jpg);
   }
 
   @media only screen and (max-width: $bp-large) {
@@ -37,7 +37,7 @@
         rgba(0, 0, 0, 0.7) 100%,
         rgba(51, 51, 51, 0.3) 100%
       ),
-      url(/img/photo-1.jpg);
+      url(../img/photo-1.jpg);
     padding: 5rem;
   }
 
