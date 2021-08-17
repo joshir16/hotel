@@ -1,0 +1,40 @@
+/** @format */
+
+@keyframes divAnimate {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0%;
+  }
+  100% {
+    width: 0%;
+    left: 100%;
+  }
+}
+
+// ===================================================
+
+@keyframes mainBox {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+  }
+}
+
+// ===================================================
+
+@keyframes displayBox {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
